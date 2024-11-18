@@ -1,11 +1,11 @@
+# main.py
 import sys
 from PySide6.QtWidgets import QApplication
-from main.ui.draggable_widget import DraggableWidget
+from draggable_window import DraggableWidget
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
 
-    # Create and show the draggable widget
     window = DraggableWidget()
     window.show()
 
